@@ -11,7 +11,7 @@ module.exports = (env, argv) => {
     devtool: isDevelopment && 'cheap-module-source-map',
     entry: path.resolve('index.js'),
     output: {
-      path: path.resolve(dirApp, 'dist'),
+      path: path.resolve(dirApp, 'docs'),
       filename: "js/app.js"
     },
     devServer: {
